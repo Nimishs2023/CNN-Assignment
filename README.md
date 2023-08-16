@@ -32,9 +32,11 @@ The dataset consists of 2357 images of malignant and benign oncological diseases
 1. The initial model showed evidence of overfitting, as the training accuracy was higher than validation accuracy.
 2. Data augmentation helped mitigate overfitting and improved the model's performance on unseen data.
 3. Class distribution analysis revealed imbalanced classes, with melanoma having fewer samples.
-4. Augmentation was applied to address class imbalances, leading to improved accuracy on underrepresented classes.
-5. The final model achieved a higher accuracy and better generalization on the test dataset.
+4. Augmentation was applied to address class imbalances, but the model's test accuracy after handling imbalance was approximately 0.161.
+5. While the test accuracy improved, the overall model performance may still need further improvement.
+6. It's recommended to consider additional evaluation metrics such as precision, recall, and F1-score, especially in the context of imbalanced datasets.
+7. Further analysis and fine-tuning of the model might be necessary to achieve better results on the task of melanoma detection.
 
 ## Acknowledgements
 - The dataset used in this project is provided by the International Skin Imaging Collaboration (ISIC).
-- This project was completed as part of the assignment for PGP(AI/ML) - IIIT Bangalore / Upgrad.
+- This project was completed as part of the assignment for [Course Name/Institution].
